@@ -2,16 +2,24 @@
 
 ## Project Structure
 
-+----- data: holds data for the project
-
-|
-
-+----- notebooks: holds notebooks for the project
-
-|
-
-+----- src: holds common source code for the project
-
-|
-
-+----- visualization: holds visualizations for the project 
+```
+├── README.md          <- The top-level README for developers using this project.
+├── data
+│   ├── external       <- Data from third party sources.
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+│
+├── models             <- Trained and serialized models, model predictions, or model summaries
+│
+├── notebooks          <- Jupyter notebooks. Naming convention is a date (for ordering),
+│                         the creator's initials, and a short `-` delimited description, e.g.
+│                         `05-30-2020--jqp--initial-data-exploration`.
+│
+├── visualization      <- Generated visuals
+│
+│
+└── src                <- Source code for use in this project. 
+```
